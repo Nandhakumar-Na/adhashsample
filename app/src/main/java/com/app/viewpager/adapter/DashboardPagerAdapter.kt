@@ -11,9 +11,9 @@ import com.app.viewpager.U.HomeFragment
 class DashboardPagerAdapter(fragmentActivity: FragmentActivity) :
     FragmentStateAdapter(fragmentActivity) {
 
-    override fun getItemCount(): Int = 3
+    override fun getItemCount(): Int = 5
 
-    override fun createFragment(position: Int): Fragment {
+    override fun createFragment(position: Int): Fragment{
         return when (position) {
             0 -> HomeFragment()
             1 -> TasksFragment()
