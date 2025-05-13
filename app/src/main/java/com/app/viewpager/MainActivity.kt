@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             tab.text = when (position) {
                 0 -> "Home"
                 1 -> "Tasks"
+                2 -> "Images"
                 else -> "Insights"
             }
         }.attach()
