@@ -1,11 +1,12 @@
 package com.app.viewpager.adapter
 
+
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.app.viewpager.U.HomeFragment
 import com.app.viewpager.U.TasksFragment
 import com.app.viewpager.U.InsightsFragment
+import com.app.viewpager.U.HomeFragment
 
 class DashboardPagerAdapter(fragmentActivity: FragmentActivity) :
     FragmentStateAdapter(fragmentActivity) {
